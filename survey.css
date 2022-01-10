@@ -1,0 +1,49 @@
+body
+{
+    font-style: initial;
+    font-size: larger;
+    border-style: groove;
+    background-image: linear-gradient(75deg,purple,lightblue, transparent);
+
+}
+
+#container
+{
+    display: block;
+    text-align: center;
+}
+
+.outer-box
+{
+    box-sizing: border-box;
+    border: 1px groove;
+    position: relative;
+    padding: 21px;
+    margin: 250px;
+    margin-top: 45px;
+    background-image: linear-gradient(75deg,purple,lightblue,purple,transparent);
+}
+
+label
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: larger;
+    width: 100%;
+    padding: 6px;
+    margin: 2px;
+}
+
+.comment{
+    -webkit-text-stroke-width: thick;
+}
+button
+{
+    
+    display: block;
+    width: -webkit-fill-available;
+    font-size: large;
+    background-color: darkslategrey;
+
+}
